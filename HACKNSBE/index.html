@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>A Good Deed a Day</title>
+<link href="style/style.css" rel="stylesheet" type="text/css">
+<link href="style/buttons.css" rel="stylesheet" type="text/css">
+<link href="style/style-6-icons.css" rel="stylesheet" type="text/css">
+<link href="style/slider.css" rel="stylesheet" type="text/css">
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/contact.js"></script>
+<script src="scripts/retina.js"></script>
+<script src="scripts/swipe.js"></script>
+<script src="scripts/klass.min.js"></script>
+<script src="scripts/photoswipe.js"></script>
+<script src="scripts/jquery-ui.min.js"></script>
+<script src="scripts/jquery.ui.touch-punch.js"></script>
+<script src="scripts/custom.js"></script>
+<script src="scripts/custom-6-icons.js"></script>
+
+</head>
+<body>
+<div class="navigation">
+	<p>
+		<a href="index.html">Home</a>
+		<a href="profile.html">User Profile</a>
+		<a href="charity.html">Charity Profile</a>
+		<a href="about.html">About</a>
+	</p>
+</div>
+<div class="header">
+	<a class="go-logo" href="index.html"><img width="20%" src="images/logo.png"></a>
+    <a class="navigation-strip" href="index.html"></a>
+    <div class="clear"></div>
+</div>
+<div class="charity_feed container">
+	<div class="column-two-one">
+		<h2 class="container-title">Popular Charities</h2>
+		<div class="popular_charity container">
+			<p><b>Los Angeles Youth Network</b></br>
+				<p>1754 Taft Ave, Los Angeles, CA</br></p>
+				<button onclick="getLocation('1754+Taft+Ave,+Los+Angeles,+CA,+United+States')">View Location</button></br>
+				(323) 467-8466</br>
+			</p>
+		</div>
+		<div class="popular_charity container">
+			<p><b>Los Angeles Mission</b></br>
+				<p>303 East 5th Street, Los Angeles, CA</br></p>
+				<button onclick="getLocation('303+East+5th+Street,+Los+Angeles,+CA,+United+States')">View Location</button></br>
+				(213) 629-1227</br>
+			</p>
+		</div>
+		<div class="popular_charity container">
+			<p><b>Good Shepherd Center for Homless Women</b></br>
+				<p>267 Belmomt Ave, Los Angeles, CA</br></p>
+				<button onclick="getLocation('267+Belmomt+Ave,+Los+Angeles,+CA,+United+States')">View Location</button></br>
+				(213) 235-1460</br>
+			</p>
+		</div>
+		<div class="popular_charity container">
+			<p><b>American Red Cross Koreatown-Wilshire District Office</b></br>
+				<p>501 Shatto PL #100, Los Angeles, CA</br></p>
+				<button onclick="getLocation('501+Shatto+Place,+Los+Angeles,+CA,+United+States')">View Location</button></br>
+				(412) 323-5335</br>
+			</p>
+		</div>
+	</div>
+	<div class="column-two-two">
+		<h2 class="container-title">Nearby Charities</h2>
+		<div class="Nearby_charity container">
+			<p><b>House of Hope</b></br>
+				<p>9513 Holmes Ave, Los Angeles, CA</br></p>
+				<button onclick="getLocation('9513+Holmes+Ave,+Los+Angeles,+CA,+United+States')">View Location</button></br>
+				(424) 702-9645</br>
+			</p>
+		</div>
+		<div class="Nearby_charity container">
+			<p><b>Friends Helping Friends LA Transitional Housing</b></br>
+				<p>3701 Cherywood Ave, Los Angeles, CA</br></p>
+				<button onclick="getLocation('3701+Cherywood+Ave,+Los+Angeles,+CA,+United+States')">View Location</button></br>
+				(323) 293-9778</br>
+			</p>
+		</div>
+		<div class="Nearby_charity container">
+			<p><b>Good Shepherd Center for Homless Women</b></br>
+				<p>267 Belmomt Ave, Los Angeles, CA</br></p>
+				<button onclick="getLocation('267+Belmomt+Ave,+Los+Angeles,+CA,+United+States')">View Location</button></br>
+				(213) 235-1460</br>
+			</p>
+		</div>
+		<div class="Nearby_charity container">
+			<p><b>Los Angeles Mission</b></br>
+				<p>303 East 5th Street, Los Angeles, CA</br></p>
+				<button onclick="getLocation('303+East+5th+Street,+Los+Angeles,+CA,+United+States')">View Location</button></br>
+				(213) 629-1227</br>
+			</p>
+		</div>
+	</div>
+</div>
+	<div id="map1" class="container"></div>
+	<script type="text/javascript">
+		function getLocation(y){
+			//var x = document.getElementById(y).src;
+			document.getElementById("map1").innerHTML = ("<iframe width=\"100%\" height=\"300\" frameborder=\"0\" style=\"border:0\" src=\"https://www.google.com/maps/embed/v1/place?q="+y+"&key=AIzaSyCr-hHuoM2uepT-9hTERBtALbcUvCm7_rk\"></iframe>")
+		}
+	</script>
+</body>
+</html>

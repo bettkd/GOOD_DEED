@@ -50,11 +50,11 @@ a{
 	color:#e34e47;
 	text-decoration:none;
 	font-family:'Open Sans', sans-serif;
-	font-size:12px;
+	font-size:14px;
 }
 
 p{
-	font-size:12px;
+	font-size:14px;
 	font-family:'Open Sans', sans-serif;
 }
 
@@ -102,7 +102,7 @@ li{
 
 .sub-logo-text{
 	text-align:center;
-	font-size:12px;
+	font-size:14px;
 	color:#8b8b8b;
 	padding-bottom:10px;
 	text-shadow:0px 1px 0px #ffffff;
@@ -116,7 +116,7 @@ li{
 .footer p{
 	margin-top:-10px;
 	padding-bottom:20px;
-	font-size:10px;
+	font-size:12px;
 	color:#8b8b8b;
 	text-align:center;
 }
@@ -168,7 +168,7 @@ li{
 }
 
 .navigation p a{
-	color:#FFFFFF;
+	color:#55acee;
 	padding-left:10px;
 	padding-right:10px;
 }
@@ -197,6 +197,15 @@ li{
 /*/////////////////////////////////*/
 /*/////////////////////////////////*/
 /*/////////////////////////////////*/
+.popular_charity {
+	border: 2px solid #dddddd;
+    border-radius: 5px;
+}
+
+.Nearby_charity {
+	border: 2px solid #dddddd;
+    border-radius: 5px;
+}
 
 .arrow-decoration{
 	display:block;
@@ -270,7 +279,7 @@ li{
 }
 
 .header{
-	padding-top:20px;
+	padding-top:5px;
 	margin-bottom:20px;
 }
 
@@ -375,16 +384,16 @@ li{
 }
 
 .container-title{
-	color:#777777;
+	color:#287bbc;
 	text-shadow:0px 1px 0px #FFFFFF;
 	font-weight:600;
-	font-size:13px;
+	font-size:16px;
 	text-align:left;
 	padding-bottom:10px;
 }
 
 .standard-list{
-	font-size:12px;
+	font-size:14px;
 	color:#8b8b8b;
 	text-shadow:0px 1px 0px;
 	padding-left:25px;
@@ -392,7 +401,7 @@ li{
 }
 
 .icon-lists{
-	font-size:12px;
+	font-size:14px;
 	color:#8b8b8b;
 	margin-bottom:-5px;
 	
@@ -528,7 +537,7 @@ li{
 }
 
 .column-two-one{
-	color:#8b8b8b;
+	color:#133783;
 	float:left;
 	width:45%;
 	padding-right:25px;
@@ -536,7 +545,7 @@ li{
 }
 
 .column-two-two{
-	color:#8b8b8b;
+	color:#133783;
 	float:left;
 	width:45%;
 	text-shadow:0px 1px 0px #FFFFFF;
@@ -567,7 +576,7 @@ li{
 }
 
 .toggle-plus{
-	font-size:12px;
+	font-size:14px;
 	font-weight:600;
 	color:#777;
 	text-shadow:0px 1px 0px #FFFFFF;
@@ -582,7 +591,7 @@ li{
 }
 
 .toggle-arrow{
-	font-size:12px;
+	font-size:114px;
 	font-weight:600;
 	color:#777;
 	text-shadow:0px 1px 0px #FFFFFF;
@@ -600,7 +609,7 @@ li{
 .toggle-content{
 	display:none;
 	padding-top:10px;
-	font-size:12px;
+	font-size:14px;
 	color:#8b8b8b;
 	text-shadow:0px 1px 0px #FFFFFF;
 }

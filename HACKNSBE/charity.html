@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>A Good Deed a Day</title>
+<link href="style/style.css" rel="stylesheet" type="text/css">
+<link href="style/buttons.css" rel="stylesheet" type="text/css">
+<link href="style/style-6-icons.css" rel="stylesheet" type="text/css">
+<link href="style/slider.css" rel="stylesheet" type="text/css">
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/contact.js"></script>
+<script src="scripts/retina.js"></script>
+<script src="scripts/swipe.js"></script>
+<script src="scripts/klass.min.js"></script>
+<script src="scripts/photoswipe.js"></script>
+<script src="scripts/jquery-ui.min.js"></script>
+<script src="scripts/jquery.ui.touch-punch.js"></script>
+<script src="scripts/custom.js"></script>
+<script src="scripts/custom-6-icons.js"></script>
+
+</head>
+<body>
+
+<div class="navigation">
+	<p>
+		<a href="index.html">Home</a>
+		<a href="profile.html">User Profile</a>
+		<a href="charity.html">Charity Profile</a>
+		<a href="about.html">About</a>
+	</p>
+</div>
+<div class="header">
+	<a class="go-logo" href="index.html"><img width="20%" src="images/logo.png"></a>
+    <a class="navigation-strip" href="index.html"></a>
+    <div class="clear"></div>
+</div>
+	<form id="orgForm" onsubmit="createOrg(this.form)">
+		<div class="column-two-one">
+			<div class="popular_charity container"> <p>Organization Name:</p></div>
+
+			<div class="popular_charity container"> <p>Street Address:</p></div>
+
+			<div class="popular_charity container"><p>City:</p> </div>
+
+			<div class="popular_charity container"> <p>State:</p></div>
+
+			<div class="popular_charity container"> <p>Zip Code:</p></div>
+
+			<div class="popular_charity container"><p>Phone Number:</p> </div>
+
+			<div class="popular_charity container"> <p>Email:</p></div>
+
+			<div class="popular_charity container"><p>Description:</p> </div>
+
+		</div>
+
+		<div class="column-two-two">
+
+			<div class="popular_charity container"> <p><input  type="text" id="name" required></p></div>
+
+			<div class="popular_charity container"> <p><input type="text" id="street" required></p></div>
+
+			<div class="popular_charity container"><p><input type="text" id="city" required></p> </div>
+
+			<div class="popular_charity container"><p><input type="text" id="state" required></p> </div>
+
+			<div class="popular_charity container"> <p><input type="number" id="zip" required></p></div>
+
+			<div class="popular_charity container"> <p><input type="tel" id="phone" required></p></div>
+
+			<div class="popular_charity container"> <p><input type="email" id="email" required></p></div>
+
+			<div class="popular_charity container"> <p><textarea rows="4" id="desc"></textarea></p></div>
+
+		</div>
+			
+		<div class="container"><input type="submit"></div>
+		</form>	
+
+</body>
+</html>
