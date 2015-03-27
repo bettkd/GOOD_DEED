@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+.replace-2x {
+	font-size: 1px;
+}
+
+@media all and (-webkit-min-device-pixel-ratio:2) {
+	.circle-navigation{
+		background-image:url(../images/nav-six-circle/circle@2x.png);
+		-webkit-background-size:257px 257px;
+	}
+
+};s

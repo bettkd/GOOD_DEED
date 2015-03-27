@@ -1,0 +1,139 @@
+/*/////////////////*/
+/*Circle Navigation*/
+/*/////////////////*/
+
+.circle-navigation{
+	width:260px;
+	height:260px;
+	margin:auto;
+	background-image:url(../images/nav-six-circle/circle.png);
+	background-repeat:no-repeat;
+	border-radius:260px;
+	-webkit-border-radius:260px;
+}
+
+.drophover{ 
+	opacity:0.1;
+}
+
+.circle-in{
+	position:absolute;
+	margin-top:54px;
+	margin-left:57px;
+}
+
+
+#droppable{
+	transition: opacity 0.4s;
+	-moz-transition:opacity 0.4s; 
+	-webkit-transition:opacity 0.4s; 
+	-o-transition:opacity 0.4s; 
+	
+	position:absolute;
+	background:#f4f4f4;
+	border-radius:145px;
+	-webkit-border-radius:145px;
+	width:145px;
+	height:145px;
+}
+
+.home-icon{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	position:absolute;
+	margin-top:25px;
+	margin-left:70px;
+	width:32px;
+	height:32px;
+}
+
+.about-icon{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	position:absolute;
+	margin-top:27px;
+	margin-left:158px;
+	width:32px;
+	height:32px;
+}
+
+.portfolio-icon{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	position:absolute;
+	margin-top:110px;
+	margin-left:15px;
+	width:32px;
+	height:32px;
+}
+
+.contact-icon{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	position:absolute;
+	margin-left:210px;
+	margin-top:110px;
+	width:32px;
+	height:32px;
+}
+
+.message-icon{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	position:absolute;
+	margin-left:155px;
+	margin-top:200px;
+	width:32px;
+	height:32px;
+}
+
+.call-icon{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	position:absolute;
+	margin-left:70px;
+	margin-top:200px;
+	width:32px;
+	height:32px;
+}
+
+.drag-icon{
+	margin-top:18px;
+	margin-left:50px;
+}
+
+.click-icon{
+	margin-top:20px;
+	margin-left:45px;
+}
+
+.drag-text{
+	font-size:10px;
+	width:150px;
+	text-align:center;
+	color:#8b8b8b;
+}

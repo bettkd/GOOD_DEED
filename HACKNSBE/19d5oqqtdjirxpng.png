@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<title>Imgro | Unique Mobile Template</title>
+<link rel="apple-touch-icon" sizes="114x114" href="images/splash/index@2x.png">
+<link rel="apple-touch-startup-image" href="images/splash/splash-screen.png" media="screen and (max-device-width: 320px)" />
+<link rel="apple-touch-startup-image" media="(max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)" href="images/splash/splash-screen@2x.png" />
+
+<link href="style/style.css" rel="stylesheet" type="text/css">
+<link href="style/buttons.css" rel="stylesheet" type="text/css">
+<link href="style/style-6-icons.css" rel="stylesheet" type="text/css">
+<link href="style/retina.css" media="only screen and (-webkit-min-device-pixel-ratio: 2)" rel="stylesheet" />
+<link href="style/retina-6-icons.css" media="only screen and (-webkit-min-device-pixel-ratio: 2)" rel="stylesheet" />
+<link href="style/slider.css" rel="stylesheet" type="text/css">
+
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/contact.js"></script>
+<script src="scripts/retina.js"></script>
+<script src="scripts/swipe.js"></script>
+<script src="scripts/klass.min.js"></script>
+<script src="scripts/photoswipe.js"></script>
+<script src="scripts/jquery-ui.min.js"></script>
+<script src="scripts/jquery.ui.touch-punch.js"></script>
+<script src="scripts/custom.js"></script>
+<script src="scripts/custom-6-icons.js"></script>
+
+</head>
+
+<body>
+
+<div class="navigation">
+	<p>
+    	<a href="index.html">Home</a>
+        <a href="home.html">Intro</a>
+        <a class="selected-main-navigation" href="about.html">About</a>
+        <a href="portfolio.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+	</p>
+</div>
+
+<div class="header">
+	<a class="go-logo" href="index.html"><img class="replace-2x" height="32" src="images/logo.png" alt="img"></a>
+    <a class="navigation-strip go-home" href="index.html"></a>
+    <div class="clear"></div>
+</div>
+<div class="decoration"></div>
+
+<h3 class="big-heading first-heading">The Features Page!</h3>
+<p class="big-text">Not all headings must be centered, but a big fat one is great to give your reader a general idea about what's next on that specific page!</p>
+
+<div class="decoration"></div>
+
+<div class="page-navigation">
+	<a href="#" class="page-navigation-item selected-page-nav" id="one">Type</a>
+    <a href="#" class="page-navigation-item" id="two">UI / UX </a>
+    <a href="#" class="page-navigation-item" id="three">Image</a>
+</div>
+<div class="decoration"></div>
+
+
+<div class="one">
+    <div class="container">
+        <h3 class="container-title">List Examples</h3>
+        <div class="column-two-one">
+        	<ul class="icon-lists">
+                <li class="list-add">Add List</li>
+                <li class="list-chart">Chart List</li>
+                <li class="list-chartflip">Chart Flipped List</li>
+                <li class="list-close">Close List</li>
+                <li class="list-down">Down List</li>
+                <li class="list-error">Error List</li>
+                <li class="list-heart">Heart List</li>
+                <li class="list-info">Information List</li>
+                <li class="list-left">Left List</li>
+                <li class="list-page">Page List</li>
+        	</ul>
+        </div>
+        <div class="column-two-two">
+        	<ul class="icon-lists">
+                <li class="list-right">Right List</li>
+                <li class="list-rss">RSS List</li>
+                <li class="list-search">Search List</li>
+                <li class="list-staroff">Star Off List</li>
+                <li class="list-staron">Star On List</li>
+                <li class="list-twitter">Twitter List</li>
+                <li class="list-facebook">Facebook List</li>
+                <li class="list-up">Up List</li>
+                <li class="list-warning">Warning List</li>
+                <li class="list-add">Add List</li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="decoration"></div>
+    <div class="container">
+    	<h3 class="container-title">Full Width Text</h3>
+    	<p class="full-width">
+        	An example of text that expands to the full width of your devices screen. Rotate it and see. Of course, all text does this,
+            but this paragraph is special!
+        </p>
+    </div>
+    <div class="decoration"></div>
+    <div class="container">
+    	<h3 class="container-title">Two columns of text</h3>
+    	<p class="column-two-one">Two columns of text? Not a problem! Easy peasy! Meet column one!</p>
+        <p class="column-two-two">And of course, this is column two! They are floated, and lyquid!</p>
+        <div class="clear"></div>
+    </div>
+    <div class="decoration"></div>
+    <div class="container">
+    	<h3 class="container-title">Three columns of text</h3>
+        <p class="column-three-one">Three columns of text? Not a problem! Easy peasy! Meet column one!</p>
+        <p class="column-three-two">And of course, this is column two! They are floated, and lyquid!</p>
+        <p class="column-three-three">last but not least, column three! They are floated, and lyquid!</p>   
+        <div class="clear"></div>
+    </div>
+</div>
+
+<div class="two">
+
+	<div class="container">
+    	<h3 class="container-title">Notification Boxes</h3>
+            <div class="notification-box-green">
+                <a href="#" class="notification-quit-green">x</a>
+                <img class="notification-icon replace-2x" width="16" src="images/lists/add.png" alt="">
+                <p class="notification-text">Yes, green is good! Can download stuff!</p>
+            </div>
+            <div class="notification-box-yellow">
+                <a href="#" class="notification-quit-yellow">x</a>
+                <img class="notification-icon replace-2x" width="16" src="images/lists/warning.png" alt="">
+                <p class="notification-text">Warning! Something requires attention!</p>
+            </div>
+            <div class="notification-box-blue">
+                <a href="#" class="notification-quit-blue">x</a>
+                <img class="notification-icon replace-2x" width="16" src="images/lists/info.png" alt="">
+                <p class="notification-text">Information! Something interesting!</p>
+            </div>
+            <div class="notification-box-red">
+                <a href="#" class="notification-quit-red">x</a>
+                <img class="notification-icon replace-2x" width="16" src="images/lists/close.png" alt="">
+                <p class="notification-text">Attention! Something bad is happening!</p>
+            </div>
+    </div>
+    <div class="decoration"></div>
+
+	<div class="container">
+    	<h3 class="container-title">Toggles</h3>
+        <div class="toggle-container">
+        	<a href="#" class="toggle-plus">Click here to expand the toggle!</a>
+            <div class="toggle-content">
+            	<p>
+                	Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                     when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
+            </div>
+        </div>
+        <div class="toggle-container">
+        	<a href="#" class="toggle-arrow">Click here to expand the toggle!</a>
+            <div class="toggle-content">
+            	<p>
+                	The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. 
+                    Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced 
+                    in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="decoration"></div>
+    <div class="container">
+    	<h3 class="container-title">Checkboxes, radios, etc!</h3>
+        <a href="#" class="checkbox-1">Check me</a>
+        <a href="#" class="checkbox-2">Check me</a>
+        <a href="#" class="radio-1">Check me</a>
+        <a href="#" class="radio-2">Check me!</a>
+    </div>
+</div>
+
+
+<div class="three">
+	<div class="container">
+    	<h3 class="container-title">Simple responsive image</h3>
+    	<img class="aspect-image" src="images/images/1.jpg" alt="img">
+	</div>
+    <div class="decoration"></div>
+    <div class="container">
+    	<h3 class="container-title">Image with caption</h3>
+        <div class="captioned-image">
+            <img class="aspect-image" src="images/images/2.jpg" alt="img">
+            <p class="image-caption">Hello there! This is a caption!</p>
+        </div>
+    </div>
+</div>
+
+<div class="decoration"></div>
+<p class="big-footer">
+	&copy; Enabled. All rights reserved. <br/> <a href="#" class="back-up">Go Up!</a>
+</p>
+
+</body>
+</html>
